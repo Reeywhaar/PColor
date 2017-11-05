@@ -29,6 +29,21 @@ button, input, select{
 
 .color-property__button{
 	padding: 1px;
+	border-radius: 0px;
+}
+
+.color-property__button:not(:first-of-type){
+	border-left: none;
+}
+
+.color-property__button:first-of-type{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.color-property__button:last-of-type{
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 
 .hue-invert-button{
