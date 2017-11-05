@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+hr{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border: none;
+	border-top: 1px solid hsla(0,0%,50%,.7);
+}
+
+button, input, select{
+	outline: none;
+}
+
+.color-property{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.color-property__label, .color-property__button{
+	flex: 1;
+}
+
+.color-property__button{
+	padding: 1px;
+}
+
+.hue-invert-button{
+	margin: 0;
+}
+
+.darken-mode{
+	display: inline-flex;
+	align-items: center;
+	font-size: 90%;
+}
+
+.darken-mode__title{
+	margin-right: 2px;
+}
+
+.darken-mode__label{
+	display: inline-flex;
+	align-items: center;
+}
+
+.additional-actions{
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2px;
+}
